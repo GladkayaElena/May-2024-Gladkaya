@@ -1,0 +1,12 @@
+.conteiner{
+    display: inline-flex;
+    margin: 20px;
+}
+
+.conten1 {
+    display: flex;
+    margin: 20px;
+    background-color: darkgray;
+    align-items: center;
+    height: 150px;
+}
