@@ -5,38 +5,46 @@
     <title>Title</title>
     <style>
 
-        .hov1{
+        *{
             background-color: green;
+        }
+
+        .hov1{
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
-            padding: 20px;
-
         }
+
         h3{
             display: flex;
-            justify-content: start;
-            align-items: center;
-            text-align: center;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            text-align: start;
+            background-color: aquamarine;
         }
+
         .pogoda{
-            width: 200px;
+            width: 205px;
             height: 200px;
             background-color: aquamarine;
-            margin: 20px;
+            margin: 10px;
             transition: 2s;
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            justify-content: flex-start;
+            align-items: start;
+            padding: 0 10px 0 15px;
+            line-height: 25px;
+            box-shadow: 5px 5px 16px -7px rgba(0,0,0,0.75);
+            border-radius: 3px;
         }
+
         .pogoda:hover{
             background-color: aquamarine;
             border-radius: 5px;
-            width: 220px;
-            height: 220px;
             transition: 2s;
-
+            transform: scale(1.1);
         }
     </style>
 </head>
@@ -126,7 +134,6 @@
         Температура: -2°C
         Температурний рекорд: -20°C
         Кількість днів: 31</div>
-
 
 </div>
 
