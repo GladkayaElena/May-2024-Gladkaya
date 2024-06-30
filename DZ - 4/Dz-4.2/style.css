@@ -1,0 +1,62 @@
+.conteiner {
+    margin: 20px;
+}
+
+.widgets{
+    height: 25vh;
+    background-color: #75cae8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+}
+
+.Big{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+.BigWidgets{
+    height: 20vh;
+    width: 32vw;
+    background-color: #034a63;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+
+.BiggerWidgets{
+    height: 20vh;
+    width: 32vw;
+    background-color: #034a63;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+
+.HugeWidgets {
+    height: 20vh;
+    width: 32vw;
+    background-color: #034a63;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+
+.contact{
+    height: 43vh;
+    background-color: #75cae8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+}
