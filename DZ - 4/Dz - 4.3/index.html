@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        .section{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 10px;
+        }
+        p{
+            padding: 10px;
+            text-align: center;
+        }
+
+        img{
+            height: 50px;
+        }
+
+        h2{
+            margin: 50px;
+        }
+
+        #yellow{
+            background-color: yellow;
+        }
+        #pink{
+             background-color: pink;
+
+         }
+        #blue{
+            background-color: #75cae8;
+
+        }
+    </style>
+
+</head>
+<body>
+
+<div id="yellow" class="section" >
+    <h2>Section Title</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci cum earum, eos error eum eveniet excepturi facere incidunt inventore ipsum minima molestiae nemo perspiciatis quam rem ullam voluptate? Accusantium amet at cum doloremque eos, eveniet id impedit in inventore, maxime minima officiis placeat quam qui quo, quos sed ut vitae!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, consequatur error eum natus nostrum omnis provident quibusdam quod reiciendis, repudiandae sunt voluptatum. Dicta dolore fuga nulla quis! Aperiam aspernatur atque aut deleniti dolorem esse expedita fugit ipsam itaque iusto nisi odit perferendis quasi quibusdam quidem, quod, saepe sint temporibus totam.</p>
+    <a href="#pink"><img src="down.png" style="margin-top: 100px;"></a>
+</div>
+
+<div id="pink" class="section">
+    <a href="#yellow"><img src="up.png"></a>
+    <h2>Section Title</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi esse ipsa laboriosam numquam odio perferendis quibusdam repellendus unde velit? Cumque eius id laudantium minus nesciunt quaerat quis recusandae repellendus, rerum temporibus veniam vero voluptatibus. Corporis dolor error excepturi laudantium minima modi numquam rem saepe? Consectetur et praesentium qui quia?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet delectus expedita itaque molestiae nostrum pariatur quaerat quia quod, repudiandae similique sit velit vero voluptatem! At corporis debitis ducimus eveniet exercitationem labore laborum magnam molestiae mollitia natus necessitatibus nemo repellendus sed suscipit tempore voluptate, voluptatibus. Blanditiis deserunt error nisi reiciendis repellat!</p>
+    <a href="#blue"><img src="down.png" style="margin-top: 100px;"></a>
+</div>
+
+<div id="blue" class="section">
+    <a href="#pink"><img src="up.png";></a>
+    <h2>Section Title</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam at atque blanditiis consequatur consequuntur corporis, culpa cum delectus distinctio dolore dolorum ea earum eveniet facere fugiat fugit ipsam laboriosam maiores maxime modi mollitia nam nesciunt, non nulla pariatur placeat possimus quibusdam quo rerum sapiente sequi velit, vitae? Aut, repellendus?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi fugit, veniam? Consequatur culpa eligendi et, eum excepturi expedita inventore ipsa iure laboriosam magnam natus, nihil nostrum optio provident quibusdam quis, rem rerum tempore unde vero. Dignissimos ducimus explicabo obcaecati vel. Adipisci asperiores deleniti id modi mollitia soluta tenetur velit vero.</p>
+
+</div>
+
+</body>
+</html>
