@@ -146,6 +146,13 @@ input{
     border: solid black;
 }
 
+input:hover{
+    padding: 5px;
+    width: 100%;
+    background-color: #6addd0;
+    border: solid black;
+}
+
 .right button{
     margin-bottom: 20px;
 }
