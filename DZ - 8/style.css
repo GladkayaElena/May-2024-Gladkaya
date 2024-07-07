@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    font-family: Roboto sans-serif;
+    font-size: 18px;
+    height: 10vh;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 60px;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+}
+
+main{
+    height: 90vh;
+    background: #FBF6F3;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.content2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 42px;
+}
+
+main ul{
+    list-style-type: none;
+    display: flex;
+}
+
+main li{
+    color: #000;
+    font-family: Roboto sans-serif;
+    font-size: 13px;
+    padding: 36px 27px 0 0;
+}
+
+main img{
+    margin: 0 0 auto 166px;
+}
+
+.content2 h2{
+    color: #000;
+    font-family: Roboto sans-serif;
+    font-size: 48px;
+}
+
+.price{
+    color: #AD0306;
+    font-family: Roboto sans-serif;
+    font-size: 36px;
+    margin-top: 38px;
+}
+
+main p{
+    margin-top: 48px;
+    color: #000;
+    font-family: Roboto sans-serif;
+    font-size: 18px;
+}
