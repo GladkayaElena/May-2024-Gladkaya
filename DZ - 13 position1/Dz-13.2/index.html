@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            width: 285px;
+            height: 330px;
+            display: inline-flex;
+            padding: 20px;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            border-radius: 32px;
+            background: #FFF;
+            box-shadow: 0 4px 20px 0 rgba(139, 139, 139, 0.10);
+            position: relative;
+        }
+        .card p{
+            color: #282828;
+            text-align: center;
+            font-family: Inter, sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+        }
+        .card span{
+            color: #106FDF;
+            font-family: Inter, sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+        }
+        .box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .cards{
+            display: flex;
+            justify-items: center;
+            align-items: center;
+            flex-direction: row;
+            gap: 128px;
+        }
+        h1{
+            color: #142823;
+            text-align: center;
+            font-family: Inter, sans-serif;
+            font-size: 48px;
+            font-weight: 700;
+            margin: 200px auto 56px auto;
+            width: 472px;
+        }
+        .sale{
+            position: absolute;
+            top: -30px;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <h1>Showing CTAs <br>on hover interaction</h1>
+
+<div class="cards">
+
+<div class="card">
+    <div class="sale"><img src="img/icon.png" alt="icon"></div>
+    <img src="img/Frame1.png" alt="frame">
+    <p>Nike Running - Neon</p>
+    <span>$ 210.00</span>
+
+</div>
+
+<div class="card">
+    <div class="sale"></div>
+    <img src="img/Frame2.png" alt="frame">
+    <p>Nike - Zegama 2</p>
+    <span style="color: #DD152D;">$ 230.00</span>
+</div>
+
+<div class="card">
+    <div class="sale"><img src="img/icon.png" alt="icon"></div>
+    <img src="img/Frame3.png" alt="frame">
+    <p>Nike - Vaporfly 3</p>
+    <span>$ 210.00</span>
+
+</div>
+</div>
+</div>
+</body>
+</html>
