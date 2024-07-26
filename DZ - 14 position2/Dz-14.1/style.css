@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 42px 164px;
+    background: #F7F6F4;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.list-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+    color: #333;
+    font-family: Taviraj, sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+}
+
+.image-container {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/*//////////////выподающий список//////////////////////////////*/
+.dropdown{
+    display: none;
+}
+nav>ul>li:hover .dropdown{
+    display: block;
+}
+nav>ul>li{
+    position: relative;
+}
+nav>ul>li>ul a:hover{
+    background: rgb(235, 241, 239);
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+nav>ul>li>ul{
+    position: absolute;
+    width: 160px;
+    background: rgba(255, 255, 255, 0.70);
+    list-style-type: none;
+    text-align: left;
+}
+nav>ul>li>ul a {
+    text-decoration: none;
+    color: black;
+    padding: 15px 41px 23px 20px;
+    display: block;
+}
+/*////////////////////////////////////////////*/
+.container2{
+    height: 505px;
+    background: #F1DDC9;
+    margin: 90px auto 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+.image-container2{
+    margin: 14px 0 auto 0;
+}
+.content-container{
+    display: flex;
+    justify-items: flex-start;
+    flex-direction: column;
+    margin: 56px auto auto 56px;
+}
+h1{
+    width: 413px;
+    color: #333;
+    font-family: Taviraj, sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 80px; /* 133.333% */
+    letter-spacing: 1.2px;
+}
+
+.content-container p{
+    width: 529px;
+    margin: 32px auto 80px 0;
+    color: #333;
+    font-family: Nunito, sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.48px;
+}
+.content-container button {
+    width: 208px;
+    height: 62px;
+    background: #D84727;
+    color: #FFF;
+    font-family: Taviraj, sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    border: none;
+}
+h2{
+    color: #333;
+    font-family: Taviraj, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    margin: 80px auto 130px 0;
+}
+
+.container3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+}
+.box{
+    width: 255px;
+    height: 278px;
+    background: #FFF;
+    color: #333;
+    font-family: Taviraj,sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 133.333% */
+    padding: 212px 0 34px 24px;
+    position: relative;
+}
+.box img{
+    position: absolute;
+    top: -41px;
+    right: 24px;
+    bottom: 97px;
+    left: 24px;
+}
+
+h3{
+    color: #333;
+    font-family: Taviraj, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    margin: 132px auto 40px 0;
+}
+
+.container4{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+.foot{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.img{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.foot span {
+    color: #777;
+    font-family: Taviraj, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 0.4px;
+}
+.foot p{
+    color: #333;
+    font-family: Taviraj,sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 133.333% */
+    letter-spacing: 0.72px;
+    width: 350px;
+    margin: 16px 54px auto 0;
+}
+
+.img{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
